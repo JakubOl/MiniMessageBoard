@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.container {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.message_text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
